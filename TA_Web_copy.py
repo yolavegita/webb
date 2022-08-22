@@ -10,6 +10,7 @@ from sklearn.naive_bayes import GaussianNB #Import NB - function Gaussian
 from sklearn import tree
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
+import openpyxl
 
 # Pagar bisa digunakan untuk membuat header
 st.write( """
